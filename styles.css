@@ -39,8 +39,8 @@ header {
 
 .highlight {
     position: relative;
-    width: 49.5rem;
-    height: 24.75rem;
+    width: 100%;
+    height: auto;
 }
 
 .highlight img {
