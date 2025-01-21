@@ -287,7 +287,39 @@ footer {
 
 /* MOBILE */
 
-lock;
+@media only screen and (max-width: 768px)  {
+    header {
+        padding: 0.75rem 0rem 0.75rem 0rem;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 1.5rem 0.5rem 0rem 1rem;
+    }
+    
+    .highlight img {
+        width: 23rem;
+        height: 24.75rem;
+        padding: 0rem 0rem 0rem 0rem;
+        gap: 0.625rem;
+        border-radius: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text-overlay h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: start;
+        line-height: 1.83rem;
+        display: block;
         word-wrap: break-word;
         white-space: normal;
         max-width: 12.5rem;
